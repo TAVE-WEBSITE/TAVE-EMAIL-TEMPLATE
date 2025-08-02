@@ -43,7 +43,7 @@
           <tr>
             <td align="left" style="padding: 32px; color: #111111;">
               <h1 style="font-size: 30px; margin: 0;">
-                <span style="color: #3A7BFC;">16TH TAVE</span><br />
+                <span style="color: #3A7BFC;">{{generation}}TH TAVE</span><br />
                 신규 지원 완료 안내
               </h1>
             </td>
@@ -52,7 +52,7 @@
           <!-- 본문 인삿말 -->
           <tr>
             <td align="left" style="padding: 0 32px; font-size: 14px; color: #333333; line-height: 1.4;">
-              <p style="margin: 0;">OOO님, 안녕하세요.<br />
+              <p style="margin: 0;">{{memberName}}님, 안녕하세요.<br />
               <strong>TAVE Recruit</strong>팀입니다.
             </td>
           </tr>
@@ -65,7 +65,7 @@
           <!-- 제출일시 -->
           <tr>
             <td align="left" style="padding: 30px 32px; font-size: 16px; color: #333333;">
-              <p style="margin: 0;">제출 일시 : <strong>2025-08-12 12:39:12</strong></p>
+              <p style="margin: 0;">제출 일시 : <strong>{{nowDateTime}}</strong></p>
             </td>
           </tr>
 
@@ -73,8 +73,8 @@
           <tr>
             <td align="left" style="padding: 0 32px 24px; font-size: 14px; color: #333333; line-height: 1.6;">
               <p style="margin: 0;">
-                <strong style="color: #3A7BFC;"> 16기 웹프론트엔드 파트</strong>  지원에 신중하게 작성해주신 지원서는 무사히 접수가 완료되었으며,
-                <wbr> 운영진이 꼼꼼하게 검토 후 <strong style="color: #3A7BFC;">0월 0일 00:00</strong><strong>에 홈페이지를 통해 결과 발표</strong>될 예정입니다.
+                <strong style="color: #3A7BFC;"> {{generation}}기 {{fieldType}} 파트</strong>  지원에 신중하게 작성해주신 지원서는 무사히 접수가 완료되었으며,
+                <wbr> 운영진이 꼼꼼하게 검토 후 <strong style="color: #3A7BFC;">{{documentAnnouncementDate}}</strong><strong>에 홈페이지를 통해 결과 발표</strong>될 예정입니다.
               </p>
             </td>
           </tr>
